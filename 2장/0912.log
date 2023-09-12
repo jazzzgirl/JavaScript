@@ -1,0 +1,69 @@
+10+20
+30
+console.log("안녕하세요.")
+VM169:1 안녕하세요.
+undefined
+alert("안녕하세요.")
+undefined
+a = 10
+10
+alert(a)
+undefined
+confirm("종료하시겠습니까?")
+true
+prompt("당신의 이름은?")
+'김지연'
+prompt("종료하시겠습니까?(예/아니오)", "예")
+'예'
+name = "김지연"
+'김지연'
+console.log(name + "님 환영합니다.")
+VM817:1 김지연님 환영합니다.
+undefined
+document.write("제 이름은 " + name + "입니다.")
+undefined
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1206:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1206:1
+let age = 22
+undefined
+console.log(name + "님 나이는" + age + "세 입니다.")
+VM1438:1 김지연님 나이는22세 입니다.
+undefined
+console.log(`${name}님의 나이는 ${age}세 입니다.`)
+VM1541:1 김지연님의 나이는 22세 입니다.
+undefined
+let student = {
+    major : "컴퓨터공학부",
+    idNum : 202295000,
+    name : "김지연"
+}
+undefined
+student
+{major: '컴퓨터공학부', idNum: 202295000, name: '김지연'}
+student.name
+'김지연'
+student["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member = {
+    name : "김지연",
+    [id] : 12345
+}
+undefined
+member
+{name: '김지연', Symbol(): 12345}name: "김지연"Symbol(): 12345[[Prototype]]: Object
+member[id]
+12345
